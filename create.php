@@ -30,10 +30,10 @@ $conn = mysqli_connect(
         <ol>
             <?=$list?>
         </ol>
-    <form action="process_create.php" method="POST">
-      <p><input type="text" name="title" placeholder="title"></p>
-      <p><textarea name="description" placeholder="description"></textarea></p>
-      <p><input type="submit"></p>
-    </form>
-  </body>
+        <form action="process_create.php" method="POST">
+            <p><input type="text" name="title" placeholder="title"></p>
+            <p><textarea name="description" placeholder="description"></textarea></p>
+            <p><input type="submit"></p>
+        </form>
+    </body>
 </html>
